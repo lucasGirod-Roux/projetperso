@@ -23,21 +23,26 @@ header{
 
     background-color: $white;
 }
-.bloc-slogan{
-    text-align: center;
-    padding: 2*$spacer;
-}
 .bloc-text{
+    color: $primary;
+    margin-bottom: 5rem;
+}
+
+.home-text{
     padding: 3rem;
     background-color: $white;
     margin-bottom: 5rem;
     border-radius: 8px;
 }
-.bloc-text__title{
+.home-slogan{
+    text-align: center;
+    padding: 2*$spacer;
+}
+.home-text__title{
     text-align: center;
     padding-bottom: 1rem;
 }
-.bloc-text__title ,.bloc-text__paragraph{
+.home-text__title ,.home-text__paragraph{
     color: $black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -90,6 +95,7 @@ header{
     text-decoration: inherit;
     font-weight: bold;
     color: $secondary;
+    font-size: $spacer*1.125;
     &:hover{
         text-decoration: underline;
         color: $secondary;

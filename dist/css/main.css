@@ -11147,24 +11147,29 @@ header {
   background-color: #fff;
 }
 
-.bloc-slogan {
-  text-align: center;
-  padding: 2rem;
+.bloc-text {
+  color: rgb(248, 242, 242);
+  margin-bottom: 5rem;
 }
 
-.bloc-text {
+.home-text {
   padding: 3rem;
   background-color: #fff;
   margin-bottom: 5rem;
   border-radius: 8px;
 }
 
-.bloc-text__title {
+.home-slogan {
+  text-align: center;
+  padding: 2rem;
+}
+
+.home-text__title {
   text-align: center;
   padding-bottom: 1rem;
 }
 
-.bloc-text__title, .bloc-text__paragraph {
+.home-text__title, .home-text__paragraph {
   color: #000;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -11217,6 +11222,7 @@ header {
   text-decoration: inherit;
   font-weight: bold;
   color: rgb(129, 5, 5);
+  font-size: 1.125rem;
 }
 .o-action:hover {
   text-decoration: underline;
