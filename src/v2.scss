@@ -1,0 +1,82 @@
+.title--page{
+    font-family: 'mediasans', sans-serif;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    margin-bottom: 1rem;
+    font-size: 6.3rem;
+    font-weight: 900;
+}
+.hedr--hero{
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.hedr--hero::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(135deg, rgba(230,125,52,0) 0%, #e67d34 33.4%, #684c96 66.7%, rgba(104,76,150,0) 100%);
+}
+
+// HOVER
+.hedr--hero .hedr__lttr:nth-child(1):hover, .hedr--hero .hedr__lttr:nth-child(8):hover, .hedr--hero .hedr__lttr:nth-child(15):hover {
+    color: #d42735;
+}
+.hedr--hero .hedr__lttr:nth-child(2):hover, .hedr--hero .hedr__lttr:nth-child(9):hover, .hedr--hero .hedr__lttr:nth-child(16):hover {
+    color: #4b3039;
+}
+.hedr--hero .hedr__lttr:nth-child(3):hover, .hedr--hero .hedr__lttr:nth-child(10):hover {
+    color: #6d4f9d;
+  }
+
+.hedr--hero .hedr__lttr:hover {
+    transition: color .002s;
+}
+.hedr--hero .hedr__lttr:nth-child(4):hover, .hedr--hero .hedr__lttr:nth-child(11):hover {
+    color: #fcb248;
+  }
+  .hedr--hero .hedr__lttr:nth-child(5):hover, .hedr--hero .hedr__lttr:nth-child(12):hover {
+    color: #fb776c;
+  }
+  .hedr--hero .hedr__lttr:nth-child(6):hover, .hedr--hero .hedr__lttr:nth-child(13):hover {
+    color: #f58435;
+  }
+  .hedr--hero .hedr__lttr:nth-child(7):hover, .hedr--hero .hedr__lttr:nth-child(14):hover {
+    color: #4f1d22;
+  }
+//
+
+.hedr--hero .hedr__lttr {
+    color: #fff;
+    cursor: default;
+    transition: color 1.2s;
+}
+.hedr__strp{
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    margin: 0;
+    color: #F58335;
+    background-image: linear-gradient(135deg, #96C0FF 0%, #6C4F9D 33.4%, #D42635 66.7%, #F58437 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.5rem;
+    padding-bottom: 0.5em;
+    color: #F58335;
+    background-image: linear-gradient(135deg, #96C0FF 0%, #6C4F9D 16%, #D42635 33%, #F58437 50%, #D42635 67%, #6C4F9D 84%, #96C0FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 200% 100%;
+    background-position: 0 0;
+    transition: background-position .6s;
+}
+.hedr--hero .hedr__strp:hover {
+    background-position: 100% 0;
+  }
