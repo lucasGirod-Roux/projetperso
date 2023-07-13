@@ -110,3 +110,59 @@ header{
         width: 100%;
     }
 }
+
+
+// Header nav
+.c-hdr-nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b1d20;
+    border-bottom: 1px solid #323436;
+}
+.c-nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin: 0 2rem;
+    padding: .5rem 0;
+    width: 50%;
+}
+.c-nav-logo{
+    position: relative;
+    width: 5em;
+    &--link::before{
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        top: -1rem;
+        left: 0;
+        z-index: -5;
+        background-color: #F47E38;
+        background: linear-gradient(135deg, #96C0FF 0%, #6C4F9D 25%, #D42635 50%, #F58437 75%, #FFE295 100%);
+        border-radius: 1000px;
+        transform: rotate(0deg);
+        transition: transform .5s;
+    }
+    &--link{
+        cursor: pointer;
+        position: absolute;
+        top: 3.2rem;
+        transform: translateY(-50%);
+        width: 5em;
+        height: 5em;
+    }
+    &--link:hover::before{
+        transform: rotate(360deg);
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-top: -1rem;
+    }
+     
+}

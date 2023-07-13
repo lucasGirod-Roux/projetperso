@@ -1,6 +1,7 @@
 .c-body-artcl{
     display: grid;
     grid-template-columns: repeat(12,1fr);
+    padding-bottom: 2rem;
 }
 .c-artcl{
     grid-column: span 3;
