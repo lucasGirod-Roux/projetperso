@@ -1,4 +1,4 @@
-.title--page{
+.c-title-page{
     font-family: 'mediasans', sans-serif;
     letter-spacing: 0.05em;
     line-height: 1;
@@ -6,13 +6,13 @@
     font-size: 6.3rem;
     font-weight: 900;
 }
-.hedr--hero{
+.c-header-hero{
     padding: 2rem;
     text-align: center;
     position: relative;
     margin-bottom: 2rem;
 }
-.hedr--hero::after {
+.c-header-hero::after {
     content: "";
     display: inline-block;
     width: 100%;
@@ -24,39 +24,39 @@
 }
 
 // HOVER
-.hedr--hero .hedr__lttr:nth-child(1):hover, .hedr--hero .hedr__lttr:nth-child(8):hover, .hedr--hero .hedr__lttr:nth-child(15):hover {
+.c-header-hero .c-title-page__item:nth-child(1):hover, .c-header-hero .c-title-page__item:nth-child(8):hover, .c-header-hero .c-title-page__item:nth-child(15):hover {
     color: #d42735;
 }
-.hedr--hero .hedr__lttr:nth-child(2):hover, .hedr--hero .hedr__lttr:nth-child(9):hover, .hedr--hero .hedr__lttr:nth-child(16):hover {
+.c-header-hero .c-title-page__item:nth-child(2):hover, .c-header-hero .c-title-page__item:nth-child(9):hover, .c-header-hero .c-title-page__item:nth-child(16):hover {
     color: #4b3039;
 }
-.hedr--hero .hedr__lttr:nth-child(3):hover, .hedr--hero .hedr__lttr:nth-child(10):hover {
+.c-header-hero .c-title-page__item:nth-child(3):hover, .c-header-hero .c-title-page__item:nth-child(10):hover {
     color: #6d4f9d;
   }
 
-.hedr--hero .hedr__lttr:hover {
+.c-header-hero .c-title-page__item:hover {
     transition: color .002s;
 }
-.hedr--hero .hedr__lttr:nth-child(4):hover, .hedr--hero .hedr__lttr:nth-child(11):hover {
+.c-header-hero .c-title-page__item:nth-child(4):hover, .c-header-hero .c-title-page__item:nth-child(11):hover {
     color: #fcb248;
   }
-  .hedr--hero .hedr__lttr:nth-child(5):hover, .hedr--hero .hedr__lttr:nth-child(12):hover {
+  .c-header-hero .c-title-page__item:nth-child(5):hover, .c-header-hero .c-title-page__item:nth-child(12):hover {
     color: #fb776c;
   }
-  .hedr--hero .hedr__lttr:nth-child(6):hover, .hedr--hero .hedr__lttr:nth-child(13):hover {
+  .c-header-hero .c-title-page__item:nth-child(6):hover, .c-header-hero .c-title-page__item:nth-child(13):hover {
     color: #f58435;
   }
-  .hedr--hero .hedr__lttr:nth-child(7):hover, .hedr--hero .hedr__lttr:nth-child(14):hover {
+  .c-header-hero .c-title-page__item:nth-child(7):hover, .c-header-hero .c-title-page__item:nth-child(14):hover {
     color: #4f1d22;
   }
 //
 
-.hedr--hero .hedr__lttr {
+.c-header-hero .c-title-page__item {
     color: #fff;
     cursor: default;
     transition: color 1.2s;
 }
-.hedr__strp{
+.c-subtitle-page{
     display: inline-block;
     font-size: 1rem;
     line-height: 1;
@@ -77,6 +77,6 @@
     background-position: 0 0;
     transition: background-position .6s;
 }
-.hedr--hero .hedr__strp:hover {
+.c-header-hero .c-subtitle-page:hover {
     background-position: 100% 0;
   }

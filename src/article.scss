@@ -1,0 +1,53 @@
+.c-body-artcl{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.c-artcl{
+    grid-column: span 3;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    &:nth-child(2){
+        margin-left: 2rem;
+    }
+    .c-artcl__title{
+        font-family: degular,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2rem;
+        text-shadow: 0.05em 0.05em 0 #4f1d22;
+        color: $primary;
+    }
+    .artcl-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: .625em;
+        background-image: linear-gradient(to right, #F58435 0%, #F23540 100%);
+        opacity: .5;
+        transition: opacity .5s ease-out;
+        -moz-transition: opacity .5s ease-out;
+        -webkit-transition: opacity .5s ease-out;
+        -o-transition: opacity .5s ease-out;
+        &:hover{
+            opacity: 1;
+        }
+        }
+    &--focus{
+        flex-direction: row;
+        padding-right: 2rem;
+        border-right:1px solid #4f1d22;
+        grid-column: span 9;
+        gap: 2rem;
+        .c-artcl__img{
+            width: 500px;
+            height: 500px;
+        }
+        .c-artcl__txt{
+            width: min-content;
+        }
+        .c-artcl__title{
+            font-size: 5rem;
+        }
+    }
+}
