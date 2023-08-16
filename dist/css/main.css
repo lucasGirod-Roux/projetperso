@@ -11212,6 +11212,12 @@ textarea.form-control-lg {
   background-position: 100% 0;
 }
 
+.bloc-text__title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
 .c-body-artcl {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -11232,6 +11238,11 @@ textarea.form-control-lg {
   font-weight: 900;
   font-style: normal;
   font-size: 2rem;
+  text-shadow: 0.05em 0.05em 0 #4f1d22;
+  color: rgb(248, 242, 242);
+}
+.c-artcl .c-artcl__title:hover {
+  text-decoration: underline;
   text-shadow: 0.05em 0.05em 0 #4f1d22;
   color: rgb(248, 242, 242);
 }
@@ -11286,7 +11297,7 @@ a, p, h1, .h1, h2, .h2, h3, .h3 {
 }
 
 header {
-  margin-bottom: 3rem;
+  margin-bottom: 4.5rem;
 }
 
 [class].header-navbar {

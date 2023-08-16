@@ -18,6 +18,11 @@
         font-size: 2rem;
         text-shadow: 0.05em 0.05em 0 #4f1d22;
         color: $primary;
+        &:hover{
+            text-decoration: underline;
+            text-shadow: 0.05em 0.05em 0 #4f1d22;
+            color: $primary;
+        }
     }
     .artcl-img{
         width: 100%;
